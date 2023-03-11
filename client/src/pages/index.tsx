@@ -99,7 +99,7 @@ export default class index extends Component {
       case 0:
         return (
           <div className="centered-div">
-            <div style={{marginBottom:5}}>blendhit</div>
+            <div style={{marginBottom:25}}>blendhit</div>
             <button onClick={this.getProvider.bind(this)}>connect wallet</button>
           </div>
         )
